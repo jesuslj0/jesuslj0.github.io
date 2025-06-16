@@ -4,8 +4,8 @@ title: Jesús's GitHub Page
 ---
 
 # Bienvenido!
-Este es mi sitio personal en Github Pages.
+### Este es mi sitio personal en Github Pages.
 
 ## 🚀 Secciones destacadas
 
-- [Proyectos](./projects/)
+🔗 [Proyectos](./projects/)
