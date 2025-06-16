@@ -1,7 +1,11 @@
 --- 
 layout: default
-title: Bienvenido
+title: Jesús's GitHub Page
 ---
 
-# Hola!
+# Bienvenido!
 Este es mi sitio personal en Github Pages.
+
+## 🚀 Secciones destacadas
+
+- [Proyectos](./projects/)
