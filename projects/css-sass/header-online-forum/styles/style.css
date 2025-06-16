@@ -7,45 +7,46 @@
 
 @font-face {
   font-family: "Playfair Display Bold";
-  src: url(../../fonts/PlayfairDisplay-Bold.ttf);
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
 }
 @font-face {
   font-family: "Playfair Display";
-  src: url(../../fonts/PlayfairDisplay-VariableFont_wght.ttf);
+  src: url(../fonts/PlayfairDisplay-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Poppins Regular";
   font-style: normal;
   font-weight: 400;
-  src: url(../../fonts/Poppins-Regular.ttf) format("truetype");
+  src: url(../fonts/Poppins-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Poppins Bold";
-  src: url(../../fonts/Poppins-Bold.ttf) format("truetype");
+  font-family: "Poppins SemiBold";
+  font-weight: 700;
+  src: url(../fonts/Poppins-Bold.ttf) format("truetype");
 }
 @font-face {
   font-family: "Belgrano Regular";
-  src: url(../../fonts/Belgrano-Regular.ttf);
+  src: url(../fonts/Belgrano-Regular.ttf);
 }
 @font-face {
   font-family: "Montserrat Bold";
-  src: url(../../fonts/static/Montserrat-Bold.ttf);
+  src: url(../fonts/static/Montserrat-Bold.ttf);
 }
 @font-face {
   font-family: "Bebas Neue Regular";
-  src: url(../../fonts/BebasNeue-Regular.ttf) format("truetype");
+  src: url(../fonts/BebasNeue-Regular.ttf) format("truetype");
 }
 @font-face {
   font-family: "Quattrocento Regular";
-  src: url(../../fonts/Quattrocento-Regular.ttf);
+  src: url(../fonts/Quattrocento-Regular.ttf);
 }
 @font-face {
   font-family: "Oswald Variable";
-  src: url(../../fonts/Oswald-VariableFont_wght.ttf);
+  src: url(../fonts/Oswald-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "Merriweather Bold";
-  src: url(../../fonts/Merriweather-Bold.ttf);
+  src: url(../fonts/Merriweather-Bold.ttf);
 }
 header {
   display: flex;
@@ -67,6 +68,7 @@ header nav ul li a {
   text-decoration: none;
   color: #ABABAB;
   transition: color 0.3s ease;
+  font-family: "Poppins Regular";
 }
 header nav ul li:nth-of-type(1) a {
   color: #ffffff;
@@ -98,7 +100,7 @@ body {
   background-color: #2B2D38;
   font-size: 18px;
   position: relative;
-  background-image: url(../../img/ellipse-big.svg), url(../../img/ellipse-small.svg);
+  background-image: url(../img/ellipse-big.svg), url(../img/ellipse-small.svg);
   background-repeat: no-repeat;
   background-position: 100% 100%;
 }
@@ -132,6 +134,7 @@ body {
 .hero-title .buttons a {
   color: #ffffff;
   position: relative;
+  font-family: 'Poppins Regular';
 }
 .hero-title .buttons a:nth-child(1) {
   background-color: #DB2A6B;
@@ -141,11 +144,19 @@ body {
   border-bottom-left-radius: 0px;
   text-decoration: none;
 }
-.hero-title .buttons a:nth-child(2):after {
+.hero-title .buttons a:nth-child(2) {
+  position: relative;
+  display: inline-block;
+  font-family: 'Poppins SemiBold';
+}
+
+.icon-arrow {
+  filter: brightness(0) invert(1);
+  width: 24px;
+  height: 24px;
   position: absolute;
-  content: url(../../img/icon-arrow.svg);
-  top: -5px;
-  left: 110px;
+  top: 2px;
+  right: -35px;
 }
 
 .hero-image {
@@ -186,7 +197,7 @@ body {
 }
 .characteristics div span {
   color: #ffffff;
-  font-family: "Poppins Bold";
+  font-family: "Poppins SemiBold";
 }
 
 a:hover {
