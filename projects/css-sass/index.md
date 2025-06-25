@@ -18,3 +18,10 @@ Un diseño de encabezado con Sass.
 
 👉 [Ver demo](./header-online-forum)  
 📁 [Código fuente](https://github.com/jesuslj0/Header_Online_Forum)
+
+### 🔹 Modern Art Gallery
+
+Un ejemplo de micrositio responsive con Sass y Vite.
+
+👉 [Ver demo](./modern-art-gallery)  
+📁 [Código fuente](https://github.com/jesuslj0/modern-art-gallery)
