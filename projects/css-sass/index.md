@@ -25,3 +25,10 @@ Un ejemplo de micrositio responsive con Sass y Vite.
 
 👉 [Ver demo](./modern-art-gallery)  
 📁 [Código fuente](https://github.com/jesuslj0/modern-art-gallery)
+
+### 🔹 Developer Portfolio
+
+Un portfolio responsive con Sass y Vite. Estilo oscuro y minimalista.
+
+👉 [Ver demo](./portfolio)  
+📁 [Código fuente](https://github.com/jesuslj0/portfolio)
