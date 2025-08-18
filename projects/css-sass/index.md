@@ -31,4 +31,4 @@ Un ejemplo de micrositio responsive con Sass y Vite.
 Un portfolio responsive con Sass y Vite. Estilo oscuro y minimalista.
 
 👉 [Ver demo](./portfolio)  
-📁 [Código fuente](https://github.com/jesuslj0/portfolio)
+📁 [Código fuente](https://github.com/jesuslj0/portfolio-conquerblocks)
