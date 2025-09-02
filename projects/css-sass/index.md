@@ -32,3 +32,10 @@ Un portfolio responsive con Sass y Vite. Estilo oscuro y minimalista.
 
 👉 [Ver demo](./portfolio)  
 📁 [Código fuente](https://github.com/jesuslj0/portfolio-conquerblocks)
+
+### 🔹 Blog Academia ConquerX
+
+Una página web completamente responsive. Estilo moderno y profesional.
+
+👉 [Ver demo](./blog-academia-conquer)  
+📁 [Código fuente](https://github.com/jesuslj0/blog-academia-conquer)
