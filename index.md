@@ -9,3 +9,9 @@ title: Jesús's GitHub Page
 ## 🚀 Secciones destacadas
 
 🔗 [Proyectos](./projects/)
+
+## 📚 Ejercicios ConquerBlocks
+
+🔗 [Ejercicios](./exercises/)
+
+

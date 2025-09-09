@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 7 - Generador de Contraseñas</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        input[type="number"] { width: 60px; }
+        #error { color: red; margin-top: 10px; }
+        #password { font-weight: bold; margin-top: 10px; }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        #container {
+            flex: 1;
+            width: 100%;
+            background: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Generador de Contraseñas</h1>
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+            <label for="length">Longitud de la contraseña:</label>
+            <input type="number" id="length" min="4" placeholder="4+" />
+        </div>
+        <button id="generate" style="margin-top: 20px">Generar contraseña</button>
+        <div id="error"></div>
+        <div id="password">
+            <span id="generatedPassword"></span>
+            <button 
+                id="copyPassword" 
+                title="Copiar contraseña" 
+                style="background: none; border: none; cursor: pointer; vertical-align: middle;">📋
+            </button>
+        </div>
+        <button id="back" style="position: absolute; top: 20px; left: 20px; background-color: #0074d9; border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer;">
+            <a href="../index.html" style="text-decoration: none; color: white;">Volver</a>
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
