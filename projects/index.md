@@ -1,4 +1,4 @@
-l---
+---
 layout: default
 title: Mis Proyectos
 ---
@@ -8,5 +8,5 @@ title: Mis Proyectos
 ## 🎨 Proyectos CSS / SASS
 👉 [Ver sección](./css-sass/) 
 
-## 🕹️  Mis Juegos
+## 🕹️ Juegos
 👉 [Ver sección](./games/)
