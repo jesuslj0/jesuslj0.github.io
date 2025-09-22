@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Buscaminas</title>
+</head>
+<body>
+    <div class="main-container">
+        <h2 class="title">Buscaminas</h2>
+        <div class="map-container" style="display: none;">
+        </div>
+        <div class="flags">
+            <span class="flag-span">0</span> / <span class="flag-span-max">0</span> 
+            <img src="/assets/img/red-flag.png" style="width: 20px; height: auto; margin-left: 5px"/>
+        </div>
+        <div class="options-container">
+            <form id="map-options">
+                <div>
+                    <label for="map-select">Nivel de dificultad:</label>
+                    <select name="map-select" id="map-select">
+                        <option value="easy" selected>Fácil</option>
+                        <option value="medium">Normal</option>
+                        <option value="hard">Difícil</option>
+                    </select>
+                </div>
+                <div class="helpers">
+                    <div>
+                        <div>
+                            <span class="dimensions-span"></span> | <span class="mines-span"></span>
+                        </div>
+                        <button type="submit" id="submit-btn">Crear Mapa</button>
+                    </div>
+                </div>
+            </form>
+            <for id="game-options">
+                <button class="start-btn">Empezar</button>
+                <button class="restart-btn">Reiniciar</button>
+                <div class="time">
+                    <span id="min">00</span>:<span id="sec">00</span>:<span id="msec">00</span>
+                </div>
+            </for>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
