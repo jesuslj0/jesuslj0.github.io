@@ -30,7 +30,7 @@ body {
     }
 
     .map-container > div.bomb.revealed{
-        background-image: url("/assets/img/mine.png");
+        background-image: url("./assets/img/mine.png");
         background-size: 20px 20px;
     }
 
@@ -52,7 +52,7 @@ body {
     }
 
     .map-container > div.flag {
-        background-image: url("/assets/img/red-flag.png");
+        background-image: url("./assets/img/red-flag.png");
         background-size: 20px 20px;
     }
 
