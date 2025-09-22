@@ -3,7 +3,7 @@ layout: default
 title: Mis Proyectos
 ---
 
-# Proyectos Frontend and Backend
+# Proyectos Frontend &  Backend
 
 ## 🎨 Proyectos CSS / SASS
 👉 [Ver sección](./css-sass/) 
