@@ -11,8 +11,8 @@ title: Mis Proyectos
 ## 🕹️ Juegos
 👉 [Ver sección](./games/)
 
-## APIs
+# API Projects
 
 ## 👽 Rick and Morty Explorer
-👉 [Ver projecto](./rick-and-morty-explorer/)
-👉 [Ver repo](https://github.com/jesuslj0/rick-and-morty-explorer/)
+👉 [Ver proyecto](./rick-and-morty-explorer/)
+👉 [Ver código](https://github.com/jesuslj0/rick-and-morty-explorer/)
