@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
-title: Jesús López - Web Developer
-description: Marca como favorito para seguir mis proyectos!
+title:  "Jesús López | WebDev | Portfolio"
+description: "Proyectos personales y ejercicios de desarrollo web."
+includes: 
+  - assets/css/custom.css

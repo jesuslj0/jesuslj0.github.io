@@ -3,16 +3,20 @@ layout: default
 title: Mis Proyectos
 ---
 
-# Proyectos Frontend &  Backend
+# Proyectos Frontend & Backend
 
-## 🎨 Proyectos CSS / SASS
-👉 [Ver sección](./css-sass/) 
+<div class="card">
+  <h2>🎨 Proyectos CSS / SASS</h2>
+  <p>👉 <a href="./css-sass/">Ver sección</a></p>
+</div>
 
-## 🕹️ Juegos
-👉 [Ver sección](./games/)
+<div class="card">
+  <h2>🕹️ Juegos</h2>
+  <p>👉 <a href="./games/">Ver sección</a></p>
+</div>
 
-# API Projects
-
-## 👽 Rick and Morty Explorer
-👉 [Ver proyecto](./rick-and-morty-explorer/)
-👉 [Ver código](https://github.com/jesuslj0/rick-and-morty-explorer/)
+<div class="card">
+  <h2>👽 Rick and Morty Explorer</h2>
+  <p>👉 <a href="./rick-and-morty-explorer/">Ver proyecto</a></p>
+  <p>👉 <a href="https://github.com/jesuslj0/rick-and-morty-explorer/">Ver código</a></p>
+</div>
