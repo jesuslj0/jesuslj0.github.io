@@ -3,7 +3,7 @@ layout: default
 title: Proyectos CSS / SASS
 ---
 
-<h2>🎨 Proyectos CSS / SASS</h2>
+<h1>🎨 Proyectos CSS / SASS</h1>
 
 <div class="project-card">
     <div class="project-content">

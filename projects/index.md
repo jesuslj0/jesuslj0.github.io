@@ -17,6 +17,8 @@ title: Mis Proyectos
 
 <div class="card">
   <h2>👽 Rick and Morty Explorer</h2>
-  <p><a href="./rick-and-morty-explorer/">Ver proyecto</a></p>
-  <p><a href="https://github.com/jesuslj0/rick-and-morty-explorer/">Ver código</a></p>
+  <p>
+    <a href="./rick-and-morty-explorer/">Ver proyecto</a>
+    <a href="https://github.com/jesuslj0/rick-and-morty-explorer/">Ver código</a>
+  </p>
 </div>

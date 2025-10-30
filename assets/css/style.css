@@ -10,7 +10,7 @@ body {
 }
 
 h1 { color: #4ea1ff; margin-bottom: 2rem; }
-h2 { color: #4de7ff; margin-bottom: 0.5rem; }
+h2 { color: #e9b35c; margin-bottom: 0.5rem; }
 
 .hero {
   background: linear-gradient(135deg, #1f1f1f, #121212);
@@ -71,7 +71,6 @@ h2 { color: #4de7ff; margin-bottom: 0.5rem; }
   transform: translateY(4px);
 }
 
-
 .card {
   background-color: #1f1f1f;
   padding: 1rem;
@@ -126,7 +125,7 @@ h2 { color: #4de7ff; margin-bottom: 0.5rem; }
 }
 
 .project-content h3 {
-  color: #4de7ff;
+  color: #e9b35c;
   margin-bottom: 0.5rem;
 }
 
