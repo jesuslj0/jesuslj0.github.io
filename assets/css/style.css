@@ -289,6 +289,7 @@ body::after {
   flex-wrap: wrap;
   gap: 0.45rem;
   margin-top: 1.1rem;
+  margin-bottom: 1rem;
 }
 .tech-chip {
   font-family: var(--font-mono);
