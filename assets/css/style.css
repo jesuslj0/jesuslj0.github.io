@@ -140,8 +140,8 @@ body::after {
 .hero-avatar-wrap {
   flex-shrink: 0;
   position: relative;
-  width: 108px;
-  height: 108px;
+  width: 200px;
+  height: 200px;
 }
 
 .hero-avatar-wrap::before {
@@ -166,10 +166,11 @@ body::after {
 .hero-avatar {
   position: relative;
   z-index: 2;
-  width: 108px;
-  height: 108px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 20%;
   display: block;
 }
 
