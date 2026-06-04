@@ -16,10 +16,18 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  <video class="bg-video" autoplay muted loop playsinline poster="/assets/img/avatar2.jpeg">
+    <source src="/assets/video/particles-bg.mp4" type="video/mp4">
+  </video>
+  <div class="bg-video-overlay"></div>
+
   <nav class="site-nav">
     <div class="nav-inner">
-      <a href="/" class="nav-logo">jesuslj</a>
-      <ul class="nav-links">
+      <a href="/" class="nav-logo">jesuslj0</a>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-menu">
         <li><a href="/">Inicio</a></li>
         <li><a href="/projects/">Proyectos</a></li>
         <li><a href="/exercises/">Ejercicios</a></li>
@@ -27,6 +35,7 @@
       </ul>
     </div>
   </nav>
+  <div class="nav-backdrop" hidden></div>
 
   <div class="page-wrapper">
 
@@ -36,7 +45,7 @@
       </div>
       <div class="hero-text">
         <h1>Hola, soy <span class="name-highlight">Jesús</span></h1>
-        <p class="hero-role">Desarrollador Web · Frontend · JavaScript</p>
+        <p class="hero-role">Desarrollador Web · FullStack · AI</p>
         <p class="hero-bio">
           Construyo aplicaciones para la web con interfaces modernas y atendiendo a los detalles. 
           Cada proyecto es una forma de entender y solucionar un problema; siempre con el objetivo de hacerlo fácil de usar y limpio visualmente para el usuario.
@@ -52,7 +61,7 @@
       <h2 class="section-title">Sobre mí</h2>
       <div class="about-text">
         <p>
-          Soy desarrollador web en formación, especializado en el backend con Django y frontend con JS o React. Empecé con los fundamentos de HTML y CSS, pasé por JavaScript vanilla y ahora trabajo con templates de Django. Me interesa que las cosas no solo funcionen, sino que también se vean y se sientan bien.
+          Soy desarrollador web en formación, especializado en el backend con Django y frontend con JS o React. Empecé con los fundamentos de HTML y CSS, pasé por JavaScript vanilla y ahora trabajo con templates de Django, React y Astro. Me interesa que las cosas no solo funcionen, sino que también se vean y se sientan bien.
         </p>
         <p>
           Fuera del código me gusta el diseño de interfaces y entender por qué ciertas decisiones de UX funcionan mejor que otras. Este sitio es mi espacio para mostrar lo que voy construyendo. Espero que te guste!
@@ -62,85 +71,37 @@
           Estoy experimentando con sistemas automatizados y agentes en N8N para mejorar y ahorrar tiempo a empresas en tareas repetitivas o de atención al cliente.
         </p>
       </div>
-      <div class="tech-list">
-        <span class="tech-chip">HTML</span>
-        <span class="tech-chip">CSS</span>
-        <span class="tech-chip">SASS</span>
-        <span class="tech-chip">Bootstrap</span>
-        <span class="tech-chip">Tailwind</span>
-        <span class="tech-chip">JavaScript</span>
-        <span class="tech-chip">React</span>
-        <span class="tech-chip">Django</span>
-        <span class="tech-chip">PostgreSQL</span>
-        <span class="tech-chip">Git</span>
-        <span class="tech-chip">Docker</span>
-      </div>
     </div>
 
     <div class="section">
-      <h2 class="section-title">Proyectos publicados</h2>
-      <div class="project-list">
-
-        <a href="/projects/rick-and-morty-explorer/" class="project-item">
-          <div class="project-item-info">
-            <div class="project-item-name">Rick and Morty Explorer</div>
-            <div class="project-item-desc">Explorador de personajes con filtros usando la Rick and Morty API</div>
-          </div>
-          <div class="project-item-chips">
-            <span class="project-item-chip">React</span>
-            <span class="project-item-chip">API</span>
-          </div>
-          <span class="project-arrow">↗</span>
-        </a>
-
-        <a href="/projects/css-sass/blog-academia-conquer/" class="project-item">
-          <div class="project-item-info">
-            <div class="project-item-name">Blog Academia ConquerX</div>
-            <div class="project-item-desc">Sitio web completo y responsive con múltiples páginas</div>
-          </div>
-          <div class="project-item-chips">
-            <span class="project-item-chip">CSS</span>
-            <span class="project-item-chip">SASS</span>
-          </div>
-          <span class="project-arrow">↗</span>
-        </a>
-
-        <a href="/projects/css-sass/modern-art-gallery/" class="project-item">
-          <div class="project-item-info">
-            <div class="project-item-name">Modern Art Gallery</div>
-            <div class="project-item-desc">Micrositio responsive para galería de arte moderna</div>
-          </div>
-          <div class="project-item-chips">
-            <span class="project-item-chip">SASS</span>
-            <span class="project-item-chip">Vite</span>
-          </div>
-          <span class="project-arrow">↗</span>
-        </a>
-
-        <a href="/projects/games/stick_hero" class="project-item">
-          <div class="project-item-info">
-            <div class="project-item-name">Stick Hero</div>
-            <div class="project-item-desc">Réplica del juego de plataformas en HTML5 Canvas</div>
-          </div>
-          <div class="project-item-chips">
-            <span class="project-item-chip">Canvas</span>
-            <span class="project-item-chip">JS</span>
-          </div>
-          <span class="project-arrow">↗</span>
-        </a>
-
-        <a href="/projects/games/buscaminas" class="project-item">
-          <div class="project-item-info">
-            <div class="project-item-name">Buscaminas</div>
-            <div class="project-item-desc">Juego clásico de buscaminas para navegador</div>
-          </div>
-          <div class="project-item-chips">
-            <span class="project-item-chip">Canvas</span>
-            <span class="project-item-chip">JS</span>
-          </div>
-          <span class="project-arrow">↗</span>
-        </a>
-
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="tech-marquee">
+        <div class="tech-track">
+          <div class="tech-card"><img src="/assets/icon/HTML5.svg" alt="HTML5" class="tech-icon"><span>HTML5</span></div>
+          <div class="tech-card"><img src="/assets/icon/CSS3.svg" alt="CSS3" class="tech-icon"><span>CSS3</span></div>
+          <div class="tech-card"><img src="/assets/icon/Tailwind%20CSS.svg" alt="Tailwind CSS" class="tech-icon"><span>Tailwind</span></div>
+          <div class="tech-card"><img src="/assets/icon/JavaScript.svg" alt="JavaScript" class="tech-icon"><span>JavaScript</span></div>
+          <div class="tech-card"><img src="/assets/icon/React.svg" alt="React" class="tech-icon"><span>React</span></div>
+          <div class="tech-card"><img src="/assets/icon/Next.js.svg" alt="Next.js" class="tech-icon"><span>Next.js</span></div>
+          <div class="tech-card"><img src="/assets/icon/Astro.svg" alt="Astro" class="tech-icon"><span>Astro</span></div>
+          <div class="tech-card"><img src="/assets/icon/Django.svg" alt="Django" class="tech-icon"><span>Django</span></div>
+          <div class="tech-card"><img src="/assets/icon/PostgresSQL.svg" alt="PostgreSQL" class="tech-icon"><span>PostgreSQL</span></div>
+          <div class="tech-card"><img src="/assets/icon/Git.svg" alt="Git" class="tech-icon"><span>Git</span></div>
+          <div class="tech-card"><img src="/assets/icon/Docker.svg" alt="Docker" class="tech-icon"><span>Docker</span></div>
+        </div>
+        <div class="tech-track" aria-hidden="true">
+          <div class="tech-card"><img src="/assets/icon/HTML5.svg" alt="" class="tech-icon"><span>HTML5</span></div>
+          <div class="tech-card"><img src="/assets/icon/CSS3.svg" alt="" class="tech-icon"><span>CSS3</span></div>
+          <div class="tech-card"><img src="/assets/icon/Tailwind%20CSS.svg" alt="" class="tech-icon"><span>Tailwind</span></div>
+          <div class="tech-card"><img src="/assets/icon/JavaScript.svg" alt="" class="tech-icon"><span>JavaScript</span></div>
+          <div class="tech-card"><img src="/assets/icon/React.svg" alt="" class="tech-icon"><span>React</span></div>
+          <div class="tech-card"><img src="/assets/icon/Next.js.svg" alt="" class="tech-icon"><span>Next.js</span></div>
+          <div class="tech-card"><img src="/assets/icon/Astro.svg" alt="" class="tech-icon"><span>Astro</span></div>
+          <div class="tech-card"><img src="/assets/icon/Django.svg" alt="" class="tech-icon"><span>Django</span></div>
+          <div class="tech-card"><img src="/assets/icon/PostgresSQL.svg" alt="" class="tech-icon"><span>PostgreSQL</span></div>
+          <div class="tech-card"><img src="/assets/icon/Git.svg" alt="" class="tech-icon"><span>Git</span></div>
+          <div class="tech-card"><img src="/assets/icon/Docker.svg" alt="" class="tech-icon"><span>Docker</span></div>
+        </div>
       </div>
     </div>
 
@@ -149,5 +110,7 @@
     </footer>
 
   </div>
+
+  <script src="/assets/js/nav.js" defer></script>
 </body>
 </html>
